@@ -84,7 +84,7 @@ npm install
 
 ### 4. Configure Environment Variables
 
- `.env.local` file in the project's root directory.
+ `.env` file in the project's root directory.
 
 ```env
 BETTER_AUTH_SECRET =
@@ -96,9 +96,6 @@ BETTER_AUTH_GOOGLE_CLIENT_ID =
 BETTER_AUTH_MONGODB_URL = 
 ```
 
-Skip this step if no environment variables are needed.
-
-**Security:** Never commit private API keys or credentials to your public repository.
 
 ### 5. Run the Development Server
 
